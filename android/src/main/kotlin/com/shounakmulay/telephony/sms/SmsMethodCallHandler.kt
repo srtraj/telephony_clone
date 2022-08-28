@@ -374,7 +374,7 @@ class SmsMethodCallHandler(
       execute(action)
       true
     } else {
-      onPermissionDenied(deniedPermissions)
+//      onPermissionDenied(deniedPermissions)
       false
     }
   }
